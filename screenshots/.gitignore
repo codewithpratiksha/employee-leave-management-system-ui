@@ -1,0 +1,7 @@
+.vscode/
+node_modules/
+Thumbs.db
+# VS Code settings 
+.vscode/ 
+# System files 
+.DS_Store

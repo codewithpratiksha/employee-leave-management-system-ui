@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply For Leave</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/applyleave.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="project-title">Employee Leave Management System</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-10">
+                <div class="card apply-card">
+                    <div class="card-body">
+                        <h3 class="text-center mb-4 fw-bold text-muted">Apply Leave</h3>
+                        
+                        <form method="POST">
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Reason</label>
+                                <input type="text" class="form-control" name="reason" placeholder="Enter leave reason" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold">Start Date</label>
+                                <input type="date" class="form-control" name="startdate" required>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold">End Date</label>
+                                <input type="date" class="form-control" name="enddate" required>
+                            </div>
+                            <button class="btn btn-primary w-100 fw-bold">Submit Request</button>
+                            <div class="text-center mt-3">
+                                <a href="employee_dashboard.html">View Previous Leave Requests</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

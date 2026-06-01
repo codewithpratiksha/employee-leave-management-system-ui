@@ -1,0 +1,53 @@
+body{
+    background:#dfeafc;
+    font-family:'Segoe UI',sans-serif;
+    min-height:100vh;
+}
+
+.project-title{
+    text-align:center;
+    font-weight:bold;
+    color:#052047;
+    padding:30px 15px;
+    margin-bottom:10px;
+}
+
+.admin-text{
+    font-size: large;
+    font-weight: bold;
+}
+
+.login-card{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+    margin-top:5px;
+}
+
+input:hover{
+    border-color: #0d6efd;
+}
+
+.icon{
+    color:#0d6efd;
+}
+
+@media(max-width:768px){
+
+    .project-title{
+        font-size:1.8rem;
+        margin-bottom:10px;
+    }
+
+    .login-card{
+        padding:25px;
+    }
+}
+
+@media(max-width:576px){
+
+    .project-title{
+        font-size:1.4rem;
+    }
+}

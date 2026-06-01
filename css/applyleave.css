@@ -1,0 +1,59 @@
+body{
+    background:#dfeafc;
+    font-family:'Segoe UI',sans-serif;
+    min-height:100vh;
+}
+
+.project-title{
+    text-align:center;
+    font-weight:bold;
+    color:#052047;
+    padding:30px 15px;
+    margin-bottom:15px;
+}
+
+.apply-card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+.card-body{
+    padding:35px;
+}
+
+h3{
+    color:#052047;
+    font-weight:bold;
+}
+
+.form-label{
+    font-weight:bold;
+}
+
+input:hover{
+    border-color:#0d6efd;
+}
+
+
+.btn-primary{
+    padding:10px;
+}
+
+@media(max-width:768px){
+
+    .project-title{
+        font-size:1.8rem;
+    }
+
+    .card-body{
+        padding:25px;
+    }
+}
+
+@media(max-width:576px){
+
+    .project-title{
+        font-size:1.4rem;
+    }
+}

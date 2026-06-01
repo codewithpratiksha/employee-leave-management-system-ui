@@ -1,0 +1,48 @@
+body{
+    background:#dfeafc;
+    font-family:'Segoe UI',sans-serif;
+    min-height:100vh;
+}
+
+.project-title{
+    text-align:center;
+    font-weight:bold;
+    color:#052047;
+    padding:30px 15px;
+    margin-bottom:10px;
+}
+
+.register-card{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+
+.form-label{
+    font-weight:bold;
+}
+
+input:hover{
+    border-color:#0d6efd;
+}
+
+
+@media(max-width:768px){
+
+    .project-title{
+        font-size:1.8rem;
+    }
+
+    .register-card{
+        padding:25px;
+    }
+}
+
+@media(max-width:576px){
+
+    .project-title{
+        font-size:1.4rem;
+    }
+}

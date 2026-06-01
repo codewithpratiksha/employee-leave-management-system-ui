@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/adminlogin.css">
+</head>
+<body>
+    <div class="container-fluid login-page">
+        <h1 class="project-title">Employee Leave Management System</h1>
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-5 col-md-7 col-sm-10">
+                <div class="login-card">
+                    <div class="text-center mb-4">
+                        <p class="text-muted admin-text">Administrator Login</p>
+                    </div>
+                    
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Username</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fa-solid fa-user icon"></i>
+                                </span>
+                                <input type="text" class="form-control" name="adminuname" placeholder="Enter username" required>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fa-solid fa-lock icon"></i>
+                                </span>
+                                <input type="password" class="form-control" name="adminpass" placeholder="Enter password" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mb-3 fw-bold">Login</button>
+                        
+                        <div class="text-center mt-3">
+                            <a href="employee_login.html" class="text-decoration-none text-light btn btn-primary w-100 fw-bold">
+                                <span>Are you an employee?</span>
+                                Login here
+                            </a>
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body> 
+</html>
